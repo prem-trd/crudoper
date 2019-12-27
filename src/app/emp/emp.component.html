@@ -1,0 +1,25 @@
+<div class="row">
+        <div class="col-md-6 form-group">
+            <input  placeholder="Firstname" class="form-control" [(ngModel)]="service.currentEmployee.firstname">
+        </div>
+        <div class="col-md-6 form-group">
+                <input  placeholder="Lastname" class="form-control" [(ngModel)]="service.currentEmployee.lastname">
+        </div>
+</div>
+        <div class="row">
+                <div class="col-md-6 form-group">
+                    <input  placeholder="Contact" class="form-control" [(ngModel)]="service.currentEmployee.contact">
+                </div>
+                <div class="col-md-6 form-group">
+                            <input  placeholder="Address" class="form-control" [(ngModel)]="service.currentEmployee.address">
+                 </div>
+        </div>
+        <div class="row">
+                <div class="col-md-8">
+                    <button class="btn btn-success btn-block btn-lg" (click)="createAndUpdaate(service.currentEmployee)"><i class="fa fa-save"></i>save</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary btn-block btn-lg" (click)="clear()"><i class="fa fa-reteet"></i>clear</button>
+                            
+                 </div>
+        </div>

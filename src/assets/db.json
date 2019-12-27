@@ -1,0 +1,25 @@
+{
+  "emp": [
+    {
+      "id": 101,
+      "firstname": "abc",
+      "lastname": "xyz",
+      "contact": 54465,
+      "address": "hyd"
+    },
+    {
+      "firstname": "Neelu",
+      "lastname": "pathan",
+      "contact": "37885906",
+      "address": "guntur",
+      "id": 103
+    },
+    {
+      "firstname": "jhfsdj",
+      "lastname": "fhxdjxdfg",
+      "contact": "xbnx",
+      "address": "xbnx",
+      "id": 104
+    }
+  ]
+}
